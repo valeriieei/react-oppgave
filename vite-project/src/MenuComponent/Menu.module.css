@@ -6,9 +6,15 @@
   margin-left: 60px;
   list-style: none;
   justify-content: center;
+
+  margin-top: 40px;
 }
 .menuContainer {
-  background-color: rgb(134, 104, 104);
+  margin: 12px;
+  background: rgba(255, 245, 230, 0.9);
+  color: #2e1e1e;
+  border-radius: 12px;
+  border: 3px solid rgba(156, 100, 54, 0.4);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,7 +22,9 @@
   height: 18svh;
   width: 32svw;
   padding: 12px;
+
   border-bottom: 1px solid #1e1c1c60;
+  border-radius: 8px;
 }
 .itemImage {
   width: 140px;
