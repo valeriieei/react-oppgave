@@ -13,7 +13,7 @@ function Menu(props) {
     </li>
   ));
 
-  return <ul className={styles.menuGrid}>{itemsMenu}</ul>;
+  return <ul className={`${styles.menuGrid}`}>{itemsMenu}</ul>;
 }
 
 export default Menu;

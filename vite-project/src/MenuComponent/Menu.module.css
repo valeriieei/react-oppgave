@@ -3,24 +3,21 @@
 .menuGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-  padding: 0;
-  margin: 0 auto;
+  margin-left: 60px;
   list-style: none;
   justify-content: center;
 }
 .menuContainer {
+  background-color: rgb(134, 104, 104);
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Inter", sans-serif;
-  height: 24svh;
-  width: 28svw;
-  padding: 18px;
-  gap: 16px;
+  height: 18svh;
+  width: 32svw;
+  padding: 12px;
   border-bottom: 1px solid #1e1c1c60;
 }
-
 .itemImage {
   width: 140px;
   height: 120px;

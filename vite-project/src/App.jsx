@@ -9,6 +9,7 @@ import imageShrimp from "./assets/shrimp.JPG";
 import imageSoup from "./assets/soup.JPG";
 import imageSushi from "./assets/sushi.JPG";
 import imageTaco from "./assets/taco.JPG";
+
 function App() {
   const menu = [
     {
@@ -92,6 +93,7 @@ function App() {
       image: imageEntrecote,
     },
   ];
+
   return <Menu items={menu} />;
 }
 
