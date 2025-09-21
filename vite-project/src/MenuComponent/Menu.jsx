@@ -9,10 +9,11 @@ function Menu(props) {
         <h3>{item.price}</h3>
         <p>{item.ingredients}</p>
       </div>
+      <img src={item.image} alt={item.title} className={styles.itemImage} />
     </li>
   ));
 
-  return <ul>{itemsMenu}</ul>;
+  return <ul className={styles.menuGrid}>{itemsMenu}</ul>;
 }
 
 export default Menu;

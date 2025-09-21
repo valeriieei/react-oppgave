@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Mono&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Revalia&family=Zen+Kaku+Gothic+Antique&display=swap");
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  justify-content: center;
+}
+.menuContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  height: 24svh;
+  width: 28svw;
+  padding: 18px;
+  gap: 16px;
+  border-bottom: 1px solid #1e1c1c60;
+}
+
+.itemImage {
+  width: 140px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
